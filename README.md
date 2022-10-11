@@ -4,6 +4,19 @@ Welcome to my openSCAD project. When I started using PINE64 model A boards I stu
 
 ![Front](https://github.com/derkaktus/openscad_quarts64_mod_a/blob/cf24e792cbb92464ba7cc287c550886e375a4679/pictures/single_long_front.png)
 
+
+The goal of this project is to give you a versatile baseline with implemented adjustments (see variants below) to fit your basic needs or add some custom designs and share it back.
+
+- [x] Ready to use in 2 HE rack frame
+- [x] Short version for resin printers
+- [x] Dual boad setup
+- [x] Mounting options (know, screw ...)
+- [i] PCIx addon card rather than second board
+- [] Cooling options
+- [] Board adjustment clamp (between unused screw holes) for short dual varant
+- [] Shield design
+
+
 ## Variants
 I added some variables in the **Buildoption variables** section for some quick adjustments.
   
