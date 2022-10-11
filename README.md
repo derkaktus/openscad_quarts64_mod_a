@@ -11,10 +11,10 @@ The goal of this project is to give you a versatile baseline with implemented ad
 - [x] Short version for resin printers
 - [x] Dual boad setup
 - [x] Mounting options (know, screw ...)
-- [i] PCIx addon card rather than second board
-- [] Cooling options
-- [] Board adjustment clamp (between unused screw holes) for short dual varant
-- [] Shield design
+- [ ] PCIx addon card rather than second board
+- [ ] Cooling options
+- [ ] Board adjustment clamp (between unused screw holes) for short dual varant
+- [ ] Shield design
 
 
 ## Variants
