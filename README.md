@@ -2,14 +2,37 @@
 
 Welcome to my openSCAD project. When I started with using PINE64 model A boards I stumbled over the issue that there is no possible mounting option to a standard 19" rack. Of course, if you like the available Raspberry Pie  mount trays (check https://www.thingiverse.com/) plus you can live with 4GB RAM, buy the mode B board and leave this place ;) else go on.
 
-[Picture]
+
 
 ## Variants
-As the measure of the board are a bit special, vertical installation into 2 HE depends on the rack installation frame you use. Despite that and my frame lacks some mm space the base variant here is meant for a horizontal installation - with 5 boards in a row possible.
+I added some variables in the **Buildoption variables** section for some quick adjustments.
+  
+***make_thread=[0|1]***
+Depending on the printer you have access to and it's quality you can tell scad to cut a thred into the board mounts or not. The thread size is controlled by **sm_thread_d** (default is 3mm). If you dont want threads but still want to screw it, make use of **sm_out_h** and **sm_inn_h**
+
+  Due to request: 
+  
+- Flat surface - Set sm_out_h == sm_inn_h.    
+- Mounting pin knob (no thread) - Set sm_inn_h > sm_out_h so it creats the knob.
+- Hollow tube (no thread) - Set sm_out_h > sm_inn_h so difference function will cut a tube.
+- Hollow with thread tube - Set make_thread so sm_inn tube will be ignored and sm_thread_d used for thread size.  
+  
+  
+***make_short=[0|1]***
+Damn the board is to so long and the printer buildplate so short (or the patience) - this shrinks the board to a 2 mount point slim option. If you saw the picture below with the colored main parts, the red part marks the finish line.    
+  
+  
+***make_dual=[0|1]*** 
+Since we cannot mount the model A vertical, lets make the most out of the available space. With this option you can mount two boards per shield. You may wonder why I mirrored the second tray (z axis) rather than just adding one on top with same orientation, so try to reach the screw points while the mounts are blocked by the above ones ;)
+
+Options can be combined as needed, else consulte the comment sections. 
 
 
 
 ## Part, modules and how it works
-will be added soon
+So as commented in the file, variable definition first, assembley section where the magic happens and the rest are the modules.
+
+[main_parts_col]
+On the picture you can see the three main parts: the shield (blue), the tray(green) and the support structure (red). 
 
 
