@@ -1,8 +1,8 @@
-# QUARTZ64 Model A - rack mount
+# QUARTZ64 Model A - rackmount
 
-Welcome to my openSCAD project. When I started with using PINE64 model A boards I stumbled over the issue that there is no possible mounting option to a standard 19" rack. Of course, if you like the available Raspberry Pie  mount trays (check https://www.thingiverse.com/) plus you can live with 4GB RAM, buy the mode B board and leave this place ;) else go on.
+Welcome to my openSCAD project. When I started using PINE64 model A boards I stumbled over the issue that there is no mounting option to a standard 19" rack. If you can live with 4GB RAM and prefer the available Raspberry Pie rackmounts (check https://www.thingiverse.com/) buy the mode B board and leave this place ;) else go on.
 
-
+![Front](https://github.com/derkaktus/openscad_quarts64_mod_a/blob/cf24e792cbb92464ba7cc287c550886e375a4679/pictures/single_long_front.png)
 
 ## Variants
 I added some variables in the **Buildoption variables** section for some quick adjustments.
@@ -32,7 +32,8 @@ Options can be combined as needed, else consulte the comment sections.
 ## Part, modules and how it works
 So as commented in the file, variable definition first, assembley section where the magic happens and the rest are the modules.
 
-[main_parts_col]
+![main parts](https://github.com/derkaktus/openscad_quarts64_mod_a/blob/cf24e792cbb92464ba7cc287c550886e375a4679/pictures/main_parts_color.png)
+
 On the picture you can see the three main parts: the shield (blue), the tray(green) and the support structure (red). 
 
 
