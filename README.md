@@ -14,8 +14,15 @@ The goal of this project is to give you a versatile baseline with implemented ad
 - [ ] PCIx addon card rather than second board
 - [ ] Cooling options
 - [ ] Board adjustment clamp (between unused screw holes) for short dual varant
-- [ ] Shield design
+- [x] Shield design
 
+Dokumentation backlog:
+- [ ] Describe modules  
+- [ ] Describe shield design include
+- [ ] Describe addon cards
+
+Used libraries:
+- [threads-library-by-cuiso-v1](https://www.thingiverse.com/thing:3131126) You saved me some work here, thx 
 
 ## Variants
 I added some variables in the **Buildoption variables** section for some quick adjustments.
